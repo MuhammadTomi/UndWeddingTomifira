@@ -1,4 +1,4 @@
-#player-container #autoplay {
+#player-container #play-pause {
   cursor: pointer;
   text-indent: -999999px;
   height: 40px;
@@ -20,7 +20,7 @@
   background-color: var(--pink);
 }
 
-#player-container #autoplay::before {
+#player-container #plat-pause::before {
   content: "Play";
 }
 
